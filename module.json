@@ -1,0 +1,31 @@
+{
+    "id": "lags-update",
+    "name": "lags-update",
+    "title": "LAGs Update",
+    "description": "Atualização Tormenta20 feito pelo grupo LAGs",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Zarth13",
+            "discord": "Zarth13",
+            "url": "https://grupolag.com.br/"
+        }
+    ],
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "12",
+    "compatibility": {
+        "minimum": "9",
+        "verified": "12"
+    },
+    "packs": [
+        {
+            "name": "classes",
+            "label": "Classes",
+            "system": "tormenta20",
+            "path": "./packs/classes.db",
+            "type": "Item"
+          }
+    ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  }
